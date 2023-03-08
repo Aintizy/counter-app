@@ -1,0 +1,29 @@
+.container{
+    width: 20em;
+    height: 9em;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    background-color: papayawhip;
+    border-radius: 5px;
+}
+
+button{
+    margin: 1em;
+    width: 40px;
+    font-size: 30px;
+    border: none;
+    border-radius: 3px;
+    background-color: red;
+
+}
+
+button+button{
+    margin-left: 1em;
+    background-color: green;
+}
+
+#counter{
+    font-size: 20px;
+    margin: 2em;
+}
